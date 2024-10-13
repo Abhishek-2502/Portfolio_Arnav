@@ -3,8 +3,10 @@
   "description": "Portfolio of Abu Said",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://your-username.github.io/your-repo-name",
+  "homepage": "https://Arnavjain2503.github.io/your-repo-name",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -28,6 +30,7 @@
     "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
+    "gh-pages": "^6.2.0",
     "postcss": "latest",
     "sass": "^1.69.5",
     "tailwindcss": "latest"
