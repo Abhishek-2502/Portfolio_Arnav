@@ -3,7 +3,7 @@
   "description": "Portfolio of Abu Said",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Arnavjain2503.github.io/your-repo-name",
+  "homepage": "https://Arnavjain2503.github.io/My-Portfolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
